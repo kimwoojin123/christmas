@@ -17,8 +17,14 @@ class ForExam{
       this['problem'+i] = this.generateProblemData(i,config.baseArray,config.specialProblems);
     }
     this.problem16 = [['피카츄', '라이츄'], ['꼬부기','이브이']];
-    this.problem2 = this.problem2.filter((elem)=>elem.includes('이'));
-    this.problem3 = this.problem3.join('')
+    this.problem2 = this.problem2.filter((pokemon)=>pokemon.includes('이'));
+    this.problem3 = this.problem3.join('');
+    const obj = {};
+    this.problem4.forEach((pokemon) => {
+      obj[pokemon] = pokemon.length;
+    });
+    this.problem4 = obj;
+  
     this.assembleHTMLTags(config.htmlTagProblems)
   }
 
