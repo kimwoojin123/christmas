@@ -29,6 +29,7 @@ class ForExam{
     this.problem7 = this.problem7.every((pokemon)=>pokemon.includes('이'));
     this.problem8 = this.problem8.some((pokemon) => pokemon.startsWith('꼬'));
     this.problem9 = this.problem9.push('이브이');
+    this.problem10.pop();
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
