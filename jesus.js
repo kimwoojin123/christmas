@@ -26,6 +26,7 @@ class ForExam{
     this.problem4 = obj;
     this.problem5 = this.problem5.sort();
     this.problem6 = this.problem6.find((pokemon) => pokemon.includes('이'));
+    this.problem7 = this.problem7.every((pokemon)=>pokemon.includes('이'));
     this.assembleHTMLTags(config.htmlTagProblems)
   }
 
