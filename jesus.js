@@ -30,6 +30,7 @@ class ForExam{
     this.problem8 = this.problem8.some((pokemon) => pokemon.startsWith('꼬'));
     this.problem9 = this.problem9.push('이브이');
     this.problem10.pop();
+    this.problem11.shift();
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
