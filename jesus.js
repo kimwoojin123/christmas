@@ -24,7 +24,7 @@ class ForExam{
       obj[pokemon] = pokemon.length;
     });
     this.problem4 = obj;
-  
+    this.problem5 = this.problem5.sort();
     this.assembleHTMLTags(config.htmlTagProblems)
   }
 
