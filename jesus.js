@@ -33,6 +33,13 @@ class ForExam{
     this.problem11.shift();
     this.problem12.unshift('피카츄');
     this.problem13.splice(1,1,"이브이");
+    const originProblem14 = this.problem14
+    const copyProblem14 = this.problem14.slice();
+    copyProblem14.push('이브이');
+    this.problem14 = {
+       originProblem14,copyProblem14
+    }
+
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
