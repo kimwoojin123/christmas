@@ -32,6 +32,7 @@ class ForExam{
     this.problem10.pop();
     this.problem11.shift();
     this.problem12.unshift('피카츄');
+    this.problem13.splice(1,1,"이브이");
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
