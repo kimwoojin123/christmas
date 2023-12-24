@@ -39,7 +39,7 @@ class ForExam{
     this.problem14 = {
        originProblem14,copyProblem14
     }
-
+    this.problem15 = this.problem15.slice(-2)
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
