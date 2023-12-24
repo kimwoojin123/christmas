@@ -31,6 +31,7 @@ class ForExam{
     this.problem9 = this.problem9.push('이브이');
     this.problem10.pop();
     this.problem11.shift();
+    this.problem12.unshift('피카츄');
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
