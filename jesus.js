@@ -18,6 +18,7 @@ class ForExam{
     }
     this.problem16 = [['피카츄', '라이츄'], ['꼬부기','이브이']];
     this.problem2 = this.problem2.filter((elem)=>elem.includes('이'));
+    this.problem3 = this.problem3.join('')
     this.assembleHTMLTags(config.htmlTagProblems)
   }
 
