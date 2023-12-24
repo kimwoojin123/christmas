@@ -24,11 +24,11 @@ class ForExam{
       obj[pokemon] = pokemon.length;
     });
     this.problem4 = obj;
-    this.problem5 = this.problem5.sort();
+    this.problem5.sort();
     this.problem6 = this.problem6.find((pokemon) => pokemon.includes('이'));
     this.problem7 = this.problem7.every((pokemon)=>pokemon.includes('이'));
     this.problem8 = this.problem8.some((pokemon) => pokemon.startsWith('꼬'));
-    this.problem9 = this.problem9.push('이브이');
+    this.problem9.push('이브이');
     this.problem10.pop();
     this.problem11.shift();
     this.problem12.unshift('피카츄');
