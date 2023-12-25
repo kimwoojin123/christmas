@@ -44,7 +44,7 @@ class ForExam{
     this.problem17 = this.problem17.indexOf('라이츄');
     this.problem18.reverse();
     this.problem19 = this.problem19.map((pokemon) => pokemon.length);
-    
+    this.problem20 = this.problem20.filter((pokemon)=>pokemon.length>=3);
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
