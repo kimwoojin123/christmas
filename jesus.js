@@ -48,6 +48,8 @@ class ForExam{
     this.problem21 = this.problem21.map((pokemon) => `<li>${pokemon}</li>`);
     this.assembleHTMLTags(config.htmlTagProblems);
     this.problem22 = `<ul>${this.problem22.join('')}</ul>`
+    this.problem23 = this.problem23.filter((pokemon) => pokemon.includes('지우'));
+    
   }
 
   generateProblemData(problemNumber, baseArray, specialProblems){
