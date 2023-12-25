@@ -37,7 +37,7 @@ class ForExam{
     const copyProblem14 = this.problem14.slice();
     copyProblem14.push('이브이');
     this.problem14 = {
-       originProblem14,copyProblem14
+      originProblem14,copyProblem14
     };
     this.problem15 = this.problem15.slice(-2);
     this.problem16 = this.problem16[0].concat(this.problem16[1]);
@@ -45,6 +45,8 @@ class ForExam{
     this.problem18.reverse();
     this.problem19 = this.problem19.map((pokemon) => pokemon.length);
     this.problem20 = this.problem20.filter((pokemon)=>pokemon.length>=3);
+    this.problem21 = this.problem21.map((pokemon) => `<li>${pokemon}</li>`);
+    
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
