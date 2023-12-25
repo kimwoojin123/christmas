@@ -46,8 +46,8 @@ class ForExam{
     this.problem19 = this.problem19.map((pokemon) => pokemon.length);
     this.problem20 = this.problem20.filter((pokemon)=>pokemon.length>=3);
     this.problem21 = this.problem21.map((pokemon) => `<li>${pokemon}</li>`);
-    
     this.assembleHTMLTags(config.htmlTagProblems);
+    this.problem22 = `<ul>${this.problem22.join('')}</ul>`
   }
 
   generateProblemData(problemNumber, baseArray, specialProblems){
