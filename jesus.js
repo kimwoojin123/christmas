@@ -42,7 +42,9 @@ class ForExam{
     this.problem15 = this.problem15.slice(-2);
     this.problem16 = this.problem16[0].concat(this.problem16[1]);
     this.problem17 = this.problem17.indexOf('라이츄');
-    this.problem18 = this.problem18.reverse()
+    this.problem18.reverse();
+    this.problem19 = this.problem19.map((pokemon) => pokemon.length);
+    
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
