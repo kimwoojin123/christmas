@@ -50,6 +50,8 @@ class ForExam{
     this.problem22 = `<ul>${this.problem22.join('')}</ul>`
     this.problem23 = this.problem23.filter((pokemon) => pokemon.includes('지우'));
     this.problem24 = `<select>${this.problem24.map((tag) => `<option>${tag}</option>`).join('')}</select>`;
+    this.problem25 = `<nav>${this.problem25.join('')}</nav>`;
+
   }
 
   generateProblemData(problemNumber, baseArray, specialProblems){
