@@ -49,7 +49,7 @@ class ForExam{
     this.assembleHTMLTags(config.htmlTagProblems);
     this.problem22 = `<ul>${this.problem22.join('')}</ul>`
     this.problem23 = this.problem23.filter((pokemon) => pokemon.includes('지우'));
-    
+    this.problem24 = `<select>${this.problem24.map((tag) => `<option>${tag}</option>`).join('')}</select>`;
   }
 
   generateProblemData(problemNumber, baseArray, specialProblems){
