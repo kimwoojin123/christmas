@@ -38,8 +38,9 @@ class ForExam{
     copyProblem14.push('이브이');
     this.problem14 = {
        originProblem14,copyProblem14
-    }
-    this.problem15 = this.problem15.slice(-2)
+    };
+    this.problem15 = this.problem15.slice(-2);
+    this.problem16 = this.problem16[0].concat(this.problem16[1]);
     this.assembleHTMLTags(config.htmlTagProblems);
   }
 
