@@ -54,7 +54,8 @@ class ForExam{
     this.problem26 = `<article>${this.problem26.map((tag) => `<section>${tag}</section>`).join('')}</article>`;
     this.problem27 = this.problem27.map((tag) => `<ol>${tag}</ol>`);
     this.problem28 = this.problem28.map((tag) => `<input placeholder=${tag}>`);
-    this.problem29 = `<footer>${this.problem29.join('')}</footer>`
+    this.problem29 = `<footer>${this.problem29}</footer>`;
+    this.problem30 = `<div>${this.problem30.join('')}</div>`
   }
 
   generateProblemData(problemNumber, baseArray, specialProblems){
